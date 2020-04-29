@@ -29,7 +29,7 @@ The following are the data sources which we extracted from and how it was done. 
 
 
 ## Transform
-Each of the tables had their own challenges during the data cleaning process. All the tables had to have column names renamed so that they would pull into SQL database without any issues. The salary data had lots of blank values that needed to be accounted for and filled will Null values. Some of the team abbreviations in that table also were not the official ones so they needed to be updated. In addition, some of the team names were spelled differently in each of the tables so they needed to be manually changed. At the end, we merged each table with the team abbreviations table same that we could inner join on that later on in SQL.
+Each of the tables had their own challenges during the data cleaning process. All the tables had to have column names renamed so that they would pull into SQL database without any issues. The salary data had lots of blank values that needed to be accounted for and filled with Null values. Some of the team abbreviations in that table were not the official ones, so they needed to be updated. In addition, some of the team names were spelled differently in each of the tables so they needed to be manually changed. At the end, we merged each table with the team abbreviations table same that we could inner join on that later on in SQL.
 
 The following are snippets of the transformed data.
 
