@@ -6,7 +6,7 @@
 
 
 ## Background
-The 2019 NFL season just finished a few months ago and we wanted to see if players stats and salaries correlated with how well a team did during the season.
+The 2020 NFL Draft just finished a few days ago and we wanted to see if players stats and salaries correlated with how well a team did during the season.
 
 ## Extract
 The following are the data sources which we extracted from and how it was done. Below each source is a snippet of the raw data.
