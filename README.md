@@ -12,6 +12,7 @@ The 2019 NFL season just finished a few months ago and we wanted to see if playe
 The following are the data sources which we extracted from and how it was done. 
 
 1) 2019 NFL Salary data - https://www.pro-football-reference.com/players/salary.htm - Read HTML table in Pandas dataframe
+![](/Images/Salary_data.png)
 2) NFL team abbreviations - https://en.wikipedia.org/wiki/Wikipedia:WikiProject_National_Football_League/National_Football_League_team_abbreviations - Read HTML table in Pandas dataframe
 3) 2019 NFL player stats - https://www.pro-football-reference.com/years/2019/scrimmage.htm - Read HTML table in Pandas dataframe
 4) 2019 NFL season records - http://www.playoffstatus.com/nfl/nflpostseasonprob.html - Read HTML table in Pandas dataframe
