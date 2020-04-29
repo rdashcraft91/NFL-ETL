@@ -48,7 +48,7 @@ The following are snippets of the transformed data.
 ## Load
 We decided to load all the clean data into a relational database, PostgresSQL, so we could make dynamic views and compare if salaries and/or player stats affected team performance. We also wanted to see if the players with best stats had a strong relationship with higher salaries. Below are some of the views that were created with the clean data once loaded.
 
-The following are snippets of the database schema and dynamic views that were created
+The following are snippets of the database schema and dynamic views we created.
 
 1) NFL Database Schema:
 
