@@ -52,7 +52,7 @@ The following are snippets of the database schema and dynamic views that were cr
 
 1) NFL Database Schema:
 
-![](/Images/NFL_QuickDBD-Free Diagram.png)
+![](/Images/NFL_Schema.png)
 
 2) Salary by Team:
 
