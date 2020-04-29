@@ -31,6 +31,16 @@ The following are the data sources which we extracted from and how it was done. 
 ## Transform
 Each of the tables had their own challenges during the data cleaning process. All the tables had to have column names renamed so that they would pull into SQL database without any issues. The salary data had lots of blank values that needed to be accounted for and filled will Null values. Some of the team abbreviations in that table also were not the official ones so they needed to be updated. In addition, some of the team names were spelled differently in each of the tables so they needed to be manually changed. At the end, we merged each table with the team abbreviations table same that we could inner join on that later on in SQL.
 
+The following are snippets of the transformed data.
+
+1) 2019 NFL salary data:
+![](/Images/Transformed_Salaries.png)
+
+2) 2019 NFL player stats:
+![](/Images/Transformed_Stats.png)
+
+3) 2019 NFL season records:
+![](/Images/Transformed_Records.png)
 
 ## Load
 We decided to load all the clean data into a relational database, PostgresSQL, so we could make dynamic views and compare if salaries and/or player stats affected team performance. We also wanted to see if the players with best stats had a strong relationship with higher salaries. Below are some of the views that were created with the clean data once loaded.
