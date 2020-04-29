@@ -11,6 +11,7 @@ where "Position" = 'RB' and "Touches" > 150
 order by "Yards/Touch" desc, "Total_Yards" desc;
 
 --Creates a table summary of salary by WR
+create or replace view v_wr as
  SELECT player_stats."Player",
     player_stats."Position",
     player_stats."Yards/Touch",
@@ -20,7 +21,7 @@ order by "Yards/Touch" desc, "Total_Yards" desc;
   ORDER BY player_stats."Yards/Touch" DESC, player_stats."Total_Yards" DESC;
 
 --Creates a table summary of salary by team
-create or replace view v_salary_by_team
+create or replace view v_salary_by_team as 
 select team
 	   ,abrv
 	   ,cast(sum(salary) as money) as total_salary
@@ -34,7 +35,7 @@ group by team, abrv
 order by total_salary desc
 
 --Creates a table summary of salary by position
-create or replace view v_salary_by_position
+create or replace view v_salary_by_position as
 select player_position
 	   ,cast(sum(salary) as money) as total_salary
 	   ,cast(avg(salary) as money) as avg_salary
