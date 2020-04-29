@@ -34,12 +34,15 @@ Each of the tables had their own challenges during the data cleaning process. Al
 The following are snippets of the transformed data.
 
 1) 2019 NFL salary data:
+
 ![](/Images/Transformed_Salaries.png)
 
 2) 2019 NFL player stats:
+
 ![](/Images/Transformed_Stats.png)
 
 3) 2019 NFL season records:
+
 ![](/Images/Transformed_Records.png)
 
 ## Load
