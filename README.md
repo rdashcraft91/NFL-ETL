@@ -13,19 +13,19 @@ The following are the data sources which we extracted from and how it was done. 
 
 1) 2019 NFL Salary data - https://www.pro-football-reference.com/players/salary.htm - Read HTML table in Pandas dataframe
 
-![](/Images/Salary_Data.png)
+![salary data](/Images/Salary_Data.png)
 
 2) NFL team abbreviations - https://en.wikipedia.org/wiki/Wikipedia:WikiProject_National_Football_League/National_Football_League_team_abbreviations - Read HTML table in Pandas dataframe
 
-![](/Images/Team_Abrev.png)
+![team abbreviations](/Images/Team_Abrev.png)
 
 3) 2019 NFL player stats - https://www.pro-football-reference.com/years/2019/scrimmage.htm - Read HTML table in Pandas dataframe
 
-![](/Images/Player_Stats.png)
+![player stats](/Images/Player_Stats.png)
 
 4) 2019 NFL season records - http://www.playoffstatus.com/nfl/nflpostseasonprob.html - Read HTML table in Pandas dataframe
 
-![](/Images/2019_Season_Records.png)
+![2019 season records](/Images/2019_Season_Records.png)
 
 
 ## Transform
@@ -35,15 +35,15 @@ The following are snippets of the transformed data.
 
 1) 2019 NFL salary data:
 
-![](/Images/Transformed_Salaries.png)
+![transformed salaries](/Images/Transformed_Salaries.png)
 
 2) 2019 NFL player stats:
 
-![](/Images/Transformed_Stats.png)
+![transformed stats](/Images/Transformed_Stats.png)
 
 3) 2019 NFL season records:
 
-![](/Images/Transformed_Records.png)
+![transformed records](/Images/Transformed_Records.png)
 
 ## Load
 We decided to load all the clean data into a relational database, PostgresSQL, so we could make dynamic views and compare if salaries and/or player stats affected team performance. We also wanted to see if the players with best stats had a strong relationship with higher salaries. Below are some of the views that were created with the clean data once loaded.
@@ -52,26 +52,26 @@ The following are snippets of the database schema and dynamic views we created.
 
 1) NFL Database Schema:
 
-![](/Images/NFL_Schema.png)
+![nfl schema](/Images/NFL_Schema.png)
 
 2) Salary by Team:
 
-![](/Images/v_salary_by_team.png)
+![salary by team](/Images/v_salary_by_team.png)
 
 3) Salary by Position:
 
-![](/Images/v_salary_by_position.png)
+![salary by position](/Images/v_salary_by_position.png)
 
 4) Avg Player Salary By Team:
 
-![](/Images/v_avg_player_salary_by_team.png)
+![avg player salary by team](/Images/v_avg_player_salary_by_team.png)
 
 5) Running Back Stats:
 
-![](/Images/v_rbs.png)
+![running backs](/Images/v_rbs.png)
 
 5) Wide-Receiver Stats:
 
-![](/Images/v_wr.png)
+![wide receivers](/Images/v_wr.png)
 
 
